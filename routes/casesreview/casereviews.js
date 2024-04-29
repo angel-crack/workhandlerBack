@@ -1,0 +1,1 @@
+import casereview_model from ('../../models/casereview_model')

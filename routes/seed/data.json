@@ -1,0 +1,244 @@
+{
+    "data": [
+        {
+            "tittle": "Call Routing Issues",
+            "number": "695893123",
+            "problem_description": "Call Cannot be compleated as dial when calling outside",
+            "current_status": "Investigating route patterns, analyzing call flow for resolution.",
+            "action_plan": " Check bridge configuration, restart services for bridge functionality restoration.",
+            "last_action": "Analyzed route patterns, adjusted configurations."
+        },
+        {
+            "tittle": "Call Manager Conference Bridge Issue ",
+            "number": "695392249",
+            "problem_description": " Conference bridge failing, affecting multi",
+            "current_status": "Reviewing voicemail settings, diagnosing service disruptions for prompt resolution.",
+            "action_plan": " Review call handler settings, adjust routing rules for resolution.",
+            "last_action": "Reviewed voicemail settings, restarted services."
+        },
+        {
+            "tittle": "Unity Call Handler Routing Problem ",
+            "number": "696051624",
+            "problem_description": " Call handler misrouting calls, affecting call flow, leading to missed messages.",
+            "current_status": "Debugging scripts, examining logs to identify root cause for corrective action.",
+            "action_plan": " Validate script syntax, redeploy scripts for proper execution.",
+            "last_action": "Debugged scripts, monitored execution."
+        },
+        {
+            "tittle": "UCCX Script Deployment Failure ",
+            "number": "695199545",
+            "problem_description": " Scripts failing to deploy, impacting call center functionality, causing service disruptions.",
+            "current_status": "Restoring database from backup, ensuring integrity for stable operations.",
+            "action_plan": " Review SIP trunk settings, ensure proper configuration for connectivity.",
+            "last_action": "Restored database from backup."
+        },
+        {
+            "tittle": "Call Manager SIP Trunk Configuration ",
+            "number": "692162501",
+            "problem_description": " SIP trunk misconfiguration, causing call failures, impacting external communication.",
+            "current_status": "Troubleshooting MWI integration, verifying settings to restore notification functionality.",
+            "action_plan": " Increase voicemail storage, notify users to manage messages.",
+            "last_action": "Troubleshooted MWI integration, reconfigured."
+        },
+        {
+            "tittle": "Unity Voicemail Quota Exceeded ",
+            "number": "693965907",
+            "problem_description": " Voicemail storage quota surpassed, preventing new messages, affecting message delivery.",
+            "current_status": "Validating agent credentials, restarting services to enable successful login.",
+            "action_plan": " Update agent application, restart services for application functionality.",
+            "last_action": "Validated agent credentials, restarted services."
+        },
+        {
+            "tittle": "UCCX Agent Desktop Application Error ",
+            "number": "696460996",
+            "problem_description": " Errors in agent desktop application, affecting productivity, causing call handling delays.",
+            "current_status": "Verifying trunk configuration, coordinating with ISP for resolution.",
+            "action_plan": " Check MOH configuration, restart services for MOH functionality.",
+            "last_action": "Verified trunk configuration, engaged ISP."
+        },
+        {
+            "tittle": "Call Manager Music On Hold Issue ",
+            "number": "695760443",
+            "problem_description": " Music on hold not working, affecting caller experience, causing dissatisfaction.",
+            "current_status": "Scaling port capacity, optimizing usage for seamless operations.",
+            "action_plan": " Verify AD integration settings, restart services for synchronization.",
+            "last_action": "Scaled port capacity, optimized usage."
+        },
+        {
+            "tittle": "Unity Integration with Active Directory ",
+            "number": "692987289",
+            "problem_description": " Integration issues with Active Directory, affecting user authentication, causing login failures.",
+            "current_status": "Adjusting queue settings, deploying additional resources for load management.",
+            "action_plan": " Review reporting settings, verify database connectivity for accurate reporting.",
+            "last_action": "Adjusted queue settings, added resources."
+        },
+        {
+            "tittle": "UCCX Supervisor Reporting Error ",
+            "number": "693698876",
+            "problem_description": " Errors in supervisor reporting, affecting oversight, compromising decision making",
+            "current_status": "Investigating CDR configuration, ensuring logging for accurate records.",
+            "action_plan": " Enhance SIP trunk security measures, apply security patches.",
+            "last_action": "Investigated CDR configuration, ensured logging."
+        },
+        {
+            "tittle": "Call Manager SIP Trunk Security ",
+            "number": "694847436",
+            "problem_description": " SIP trunk security vulnerabilities, risking unauthorized access, compromising network integrity.",
+            "current_status": "Validating integration settings, synchronizing services for seamless messaging.",
+            "action_plan": " Adjust voicemail access rights, ensure proper user permissions.",
+            "last_action": "Validated integration settings, synchronized services."
+        },
+        {
+            "tittle": "Unity Voicemail Access Permissions ",
+            "number": "692034432",
+            "problem_description": " Voicemail access permissions misconfigured, preventing users from accessing messages, causing frustration.",
+            "current_status": "Troubleshooting reporting parameters, ensuring database connectivity for accurate analysis.",
+            "action_plan": " Troubleshoot purge settings, optimize database maintenance tasks.",
+            "last_action": "Troubleshot reporting parameters, verified connectivity."
+        },
+        {
+            "tittle": "UCCX Historical Data Purge Failure ",
+            "number": "694061475",
+            "problem_description": " Failure in purging historical data, impacting storage, causing database performance issues.",
+            "current_status": "Reviewing mobility setup, verifying profiles for efficient mobility features.",
+            "action_plan": " Troubleshoot device registration, check network settings for resolution.",
+            "last_action": "Reviewed mobility setup, verified profiles."
+        },
+        {
+            "tittle": "Call Manager Device Registration Issue ",
+            "number": "693013878",
+            "problem_description": " Devices failing to register, affecting connectivity, causing service disruptions.",
+            "current_status": "Examining transcription settings, restarting service for functional transcription.",
+            "action_plan": " Troubleshoot backup settings, ensure backup integrity for data protection.",
+            "last_action": "Examined transcription settings, restarted service."
+        },
+        {
+            "tittle": "Unity Voicemail Backup Failure ",
+            "number": "695625347",
+            "problem_description": " Failure in backing up voicemails, risking data loss, compromising message retention.",
+            "current_status": "Analyzing script logic, optimizing code for improved performance and stability.",
+            "action_plan": " Debug IVR scripts, ensure proper logic for smooth call flow.",
+            "last_action": "Analyzed script logic, optimized code."
+        },
+        {
+            "tittle": "UCCX IVR Script Error ",
+            "number": "694023265",
+            "problem_description": " Errors in IVR (Interactive Voice Response) scripts, affecting call routing, causing confusion.",
+            "current_status": "Diagnosing replication issues, ensuring data consistency across cluster nodes.",
+            "action_plan": " Review call pickup settings, adjust configuration for proper functionality.",
+            "last_action": "Diagnosed replication issues, ensured consistency."
+        },
+        {
+            "tittle": "Call Manager Call Pickup Configuration ",
+            "number": "699773955",
+            "problem_description": " Call pickup configuration issues, affecting call handling, causing missed calls.",
+            "current_status": "Investigating synchronization issues, verifying subscriber data for consistency.",
+            "action_plan": " Verify email notification settings, restart services for notification functionality.",
+            "last_action": "Investigated synchronization issues, verified data."
+        },
+        {
+            "tittle": "Unity Voicemail Email Notification Issue ",
+            "number": "690173802",
+            "problem_description": " Email notifications not working, hindering message delivery, causing delays in response.",
+            "current_status": "Troubleshooting desktop application, providing workaround for monitoring and management.",
+            "action_plan": " Optimize agent state change processes, ensure real-time updates.",
+            "last_action": "Troubleshooted desktop application, provided workaround."
+        },
+        {
+            "tittle": "UCCX Agent State Change Delay ",
+            "number": "693465103",
+            "problem_description": " Delays in agent state changes, impacting call routing, causing longer wait times.",
+            "current_status": "Debugging registration process, verifying configuration for successful registration.",
+            "action_plan": " Verify replication settings, troubleshoot replication process for consistency.",
+            "last_action": "Debugged registration process, verified configuration."
+        },
+        {
+            "tittle": "Call Manager Route Plan Replication ",
+            "number": "695468668",
+            "problem_description": " Issues with route plan replication, affecting call routing, causing inconsistency.",
+            "current_status": "Checking greeting settings, ensuring availability for caller communication.",
+            "action_plan": " Check LDAP settings, restart services for synchronization with LDAP directory.",
+            "last_action": "Checked greeting settings, ensured availability."
+        },
+        {
+            "tittle": "Unity Connection LDAP Integration ",
+            "number": "698173151",
+            "problem_description": " LDAP integration issues, affecting user authentication, causing login failures.",
+            "current_status": "Configuring remote monitoring, verifying settings for effective oversight.",
+            "action_plan": " Review customization settings, ensure compatibility with UCCX version.",
+            "last_action": "Configured remote monitoring, verified settings."
+        },
+        {
+            "tittle": "UCCX Agent Desktop Customization ",
+            "number": "693212313",
+            "problem_description": " Issues with agent desktop customization, affecting user experience, causing inefficiency.",
+            "current_status": "Reviewing hunt group setup, optimizing configuration for efficient call distribution.",
+            "action_plan": " Adjust CAC settings, monitor call traffic for proper admission control.",
+            "last_action": "Reviewed hunt group setup, optimized configuration."
+        },
+        {
+            "tittle": "Call Manager Call Admission Control ",
+            "number": "698151234",
+            "problem_description": " Call Admission Control misconfiguration, affecting call quality, causing call drops.",
+            "current_status": "Investigating delivery delays, optimizing system for timely message delivery.",
+            "action_plan": " Optimize storage allocation, increase storage capacity as needed.",
+            "last_action": "Investigated delivery delays, optimized system."
+        },
+        {
+            "tittle": "Unity Voicemail Storage Allocation ",
+            "number": "697000630",
+            "problem_description": " Voicemail storage allocation issues, risking data loss, affecting message retention.",
+            "current_status": "Troubleshooting monitoring errors, ensuring real",
+            "action_plan": " Provide debugging guidance, optimize script logic for stable execution.",
+            "last_action": "Troubleshooted monitoring errors, ensured accuracy."
+        },
+        {
+            "tittle": "UCCX Script Debugging Assistance ",
+            "number": "699458627",
+            "problem_description": " Assistance required in debugging UCCX scripts, optimizing performance, ensuring functionality.",
+            "current_status": "Identifying park feature issues, implementing solutions for seamless call management.",
+            "action_plan": " Verify firmware compatibility, schedule upgrades during off-peak hours.",
+            "last_action": "Identified park feature issues, implemented solutions."
+        },
+        {
+            "tittle": "Call Manager Device Firmware Upgrade ",
+            "number": "699867543",
+            "problem_description": " Issues with device firmware upgrade, risking device compatibility, causing connectivity problems.",
+            "current_status": "Managing voicemail storage, optimizing usage for uninterrupted message retention.",
+            "action_plan": " Adjust route patterns, check dial plan consistency for resolution.",
+            "last_action": "Managed voicemail storage, optimized usage."
+        },
+        {
+            "tittle": "Call Manager Call Routing Failure ",
+            "number": "697631069",
+            "problem_description": " Incoming calls not reaching designated extensions or destinations consistently, causing communication disruptions.",
+            "current_status": "Resolving license installation errors, activating system for operational use.",
+            "action_plan": " Verify voicemail settings, restart Unity services to restore functionality.",
+            "last_action": "Resolved license installation errors, activated system."
+        },
+        {
+            "tittle": "Unity Voicemail Playback Issue ",
+            "number": "696059611",
+            "problem_description": " Users encountering errors when attempting to listen to voicemails, hindering message retrieval.",
+            "current_status": "Troubleshooting registration errors, ensuring trunk connectivity for seamless communication.",
+            "action_plan": " Debug scripts, ensure compatibility, and optimize for stable execution.",
+            "last_action": "Troubleshooted registration errors, ensured connectivity."
+        },
+        {
+            "tittle": "UCCX Script Execution Error ",
+            "number": "691672773",
+            "problem_description": " Custom scripts failing during execution, impacting call center operations, leading to service interruptions.",
+            "current_status": "Investigating greeting absence, restoring functionality for caller interaction.",
+            "action_plan": " Restore from backup, verify database integrity, and apply patches.",
+            "last_action": "Investigated greeting absence, restored functionality."
+        },
+        {
+            "tittle": "Call Manager Database Corruption ",
+            "number": "691704014",
+            "problem_description": " Database integrity compromised, affecting call processing and system stability, posing critical operational risks.",
+            "current_status": "Rectifying backup failure, ensuring data integrity and system reliability.",
+            "action_plan": " Troubleshoot MWI integration, reset MWI settings for resolution.",
+            "last_action": "Rectified backup failure, ensured reliability."
+        }
+    ]
+}

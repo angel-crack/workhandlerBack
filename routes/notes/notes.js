@@ -1,0 +1,1 @@
+import notes_model from ('../../models/notes_model')
