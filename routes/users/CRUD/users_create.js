@@ -4,14 +4,15 @@ import bcrypt from 'bcrypt';
 
 let usersCreate = (req, res) => {
     const body = req.body;
-
+    console.log(req.body)
     const { error } = validationSchema
         .validate({
             name: body.name,
-            lastName: body.name,
+            lastName: body.lastName,
             email: body.email,
             password: body.password,
-            role: body.role
+            role: body.role,
+            repeatPassword: body.repeatPassword
         })
     if(!error){
         createUser(body)
@@ -21,12 +22,13 @@ let usersCreate = (req, res) => {
                 })
             } )
             .catch( error => {
+                console.log(error)
                 res.status(400).json({
                     error
                 })
             } );
     }else{
-        res.json({
+        res.status(400).json({
             error
         })
     }

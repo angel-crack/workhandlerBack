@@ -14,12 +14,11 @@ route.get('/:values', checkTokenGetUserID,( req , res ) => {
 
     const i1 = Number(values[0]) - 1;
     const i2 = Number(values[1]);
-    if(!(i1 > 0 && i2 < 30 && i2 > i1)){
+    if(!(i1 >= 0 && i2 < 31 && i2 > i1)){
         res.status(400).json({
             error: "Invalid Params"
         })
     }else{
-        console.log(i1,i2)
         for (var i = i1; i < i2; i++) {
             data.data[i].owner = req.usuario;
           }

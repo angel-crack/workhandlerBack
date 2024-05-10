@@ -21,6 +21,11 @@ const schema = Joi.object({
     role: Joi.string()
         .pattern(new RegExp('^Tier (1|2|3)$')),
 
+    repeatPassword: Joi.string()
+    .valid(Joi.ref('password')) // Must be the same as the password field
+    .required()
+    .options({ messages: { 'any.only': 'Password does not match'} })
+
 });
 
 export default schema;

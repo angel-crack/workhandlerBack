@@ -12,7 +12,9 @@ const userSchema = new Schema({
     },
     email: {
         type: String,
-        required: true
+        required: true,
+        unique: true
+        
     },
     password: {
         type: String,
@@ -27,5 +29,7 @@ const userSchema = new Schema({
         default: true
     }
 });
+
+userSchema.index({ email: 1 }, { unique: true });
 
 export default mongoose.model('User', userSchema)
